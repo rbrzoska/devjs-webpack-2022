@@ -16,5 +16,6 @@ export class HomeComponent {
     this.dynamicContainer.clear();
     this._componentLoader.loadComponent(this.dynamicContainer, name)
   }
+  
 
 }
